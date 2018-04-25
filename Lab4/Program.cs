@@ -33,13 +33,13 @@ namespace Lab4
 
                 if (worked)
                 {
-                    Console.WriteLine("Number           Squared         Cubed");
-                    Console.WriteLine("======           =======         =====");
+                    Console.WriteLine("Number\t\t\tSquared\t\t\tCubed");
+                    Console.WriteLine("======\t\t\t=======\t\t\t=====");
                     //string s = string.Format("{0,-10} {1, -10:N0}\n", Squared, Cubed);
                     for (int i = 1; i <= integer2; i++)
                     {
                         //s += string.Format("{0,-10} {1, -10:N0}\n", Squared(i), Cubed(i));
-                        Console.WriteLine(i + "                " + Squared(i) + "               " + Cubed(i));
+                        Console.WriteLine(i + "\t\t\t" + Squared(i) + "\t\t\t" + Cubed(i));
                         //Console.WriteLine(s);
                     }
 
